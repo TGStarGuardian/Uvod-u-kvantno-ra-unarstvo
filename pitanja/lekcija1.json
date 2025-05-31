@@ -1,0 +1,64 @@
+[
+  {
+        "question": "Kubit je:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "tvoja mama",
+                "correct": false,
+                "feedback": "Kubit definitivno nije tvoja mama."
+            },
+            {
+                "answer": "jedinični vektor Hilbertovog prostora",
+                "correct": true,
+                "feedback": "Tačno."
+            },
+            {
+                "answer": "isto što i bit",
+                "correct": false,
+                "feedback": "Ne, kubit ne može biti isto što i bit."
+            }
+        ]
+    },
+    
+      {
+        "question": "Adamarovu bazu čine vektori:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "|0>",
+                "correct": false,
+                "feedback": "Netačno."
+            },
+            {
+                "answer": "ligma",
+                "correct": false,
+                "feedback": "Ligma balls."
+            },
+            {
+                "answer": "|+>",
+                "correct": true,
+                "feedback": "Da, ovaj vektor se nalazi u Adamarovoj bazi."
+            },
+            {
+                "answer": "|->",
+                "correct": true,
+                "feedback": "Da, ovaj vektor se nalazi u Adamarovoj bazi."
+            }
+        ]
+    },
+    
+        {
+        "question": "Verovatnoća da rezultat kvantnog merenja vektora kolinearnog sa (3, 4) u odnosu na kanonsku bazu bude |0> je:",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.36,
+                "correct": true,
+                "feedback": "Correct."
+            }
+            ]
+    }
+
+]

@@ -1,0 +1,12 @@
+    {
+        "question": "Verovatnoća da rezultat kvantnog merenja vektora kolinearnog sa (3, 4) u odnosu na kanonsku bazu bude |0> je:",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.36,
+                "correct": true,
+                "feedback": "Correct."
+            }
+            ]
+    }

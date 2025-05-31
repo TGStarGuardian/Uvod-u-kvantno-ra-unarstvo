@@ -1,0 +1,26 @@
+  {
+        "question": "Adamarovu bazu čine vektori:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "|0>",
+                "correct": false,
+                "feedback": "Netačno."
+            },
+            {
+                "answer": "ligma",
+                "correct": false,
+                "feedback": "Ligma balls."
+            },
+            {
+                "answer": "|+>",
+                "correct": true,
+                "feedback": "Da, ovaj vektor se nalazi u Adamarovoj bazi."
+            },
+            {
+                "answer": "|->",
+                "correct": true,
+                "feedback": "Da, ovaj vektor se nalazi u Adamarovoj bazi."
+            }
+        ]
+    }
