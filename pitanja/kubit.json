@@ -1,0 +1,21 @@
+  {
+        "question": "Kubit je:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "tvoja mama",
+                "correct": false,
+                "feedback": "Kubit definitivno nije tvoja mama."
+            },
+            {
+                "answer": "jedinični vektor Hilbertovog prostora",
+                "correct": true,
+                "feedback": "Tačno."
+            },
+            {
+                "answer": "isto što i bit",
+                "correct": false,
+                "feedback": "Ne, kubit ne može biti isto što i bit."
+            }
+        ]
+    }
