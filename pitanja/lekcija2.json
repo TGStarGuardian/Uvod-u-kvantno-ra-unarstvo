@@ -1,0 +1,47 @@
+[
+  {
+        "question": "Izaberi tačne odgovore.",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Na kvantnom računaru je moguće kopirati nepoznati kubit.",
+                "correct": false,
+                "feedback": "Ne, ovako nešto nije moguće zbog nemogućnosti kloniranja."
+            },
+            {
+                "answer": "Na kvantnom računaru je moguće kopirati kubit |+>",
+                "correct": true,
+                "feedback": "Naravno, potrebno je generisati kubit u stanju |0>, nakon čega se primenjuje transformacija H."
+            },
+            {
+                "answer": "Kvantno merenje u odnosu na kanonsku bazu se može rastaviti na merenje u odnosu na kanonsku bazu na svakom pojedinačnom kubitu.",
+                "correct": true,
+                "feedback": "Tačno."
+            },
+            {
+                "answer": "Sistem u kvantnom stanju |+>|0> je spregnut",
+                "correct": false,
+                "feedback": "Netačno."
+            }
+        ]
+    },
+    {
+        "question": "Verovatnoća da sistem u stanju |00> završi u stanju |Phi+> nakon kvantnog merenja u odnosu na Belovu bazu je:",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.5,
+                "correct": true,
+                "feedback": "Tačno."
+            },
+            {
+                "type": "value",
+                "value": 0.50,
+                "correct": true,
+                "feedback": "Tačno."
+            }
+            ]
+    }
+
+]
