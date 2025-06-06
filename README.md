@@ -34,3 +34,7 @@ pip3 install jupyterquiz
 jupyter notebook
 
 Dalje možete i sami.
+
+# Slike
+
+Slike kvantnih kola su preuzete sa [Wikipedia članka](https://en.wikipedia.org/wiki/Quantum_logic_gate). Slika kvantne Furijeove transformacije za n = 2 je moja, napravljena pomoću alata na sledećem [linku](https://algassert.com/quirk).
