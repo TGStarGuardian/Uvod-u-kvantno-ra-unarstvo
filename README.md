@@ -17,7 +17,9 @@ Sada se nalazite u virtualnom okruženju u kojem ćete instalirati pakete.
 4. instalirajte Q# i JupyterLab
 
 python -m pip install qsharp azure-quantum
+
 python -m pip install ipykernel ipympl jupyterlab
+
 pip3 install jupyter
 
 5. da biste mogli kvizove da pokrećete, instalirajte jupyterquiz
