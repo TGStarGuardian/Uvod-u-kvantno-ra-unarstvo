@@ -37,6 +37,34 @@ jupyter notebook
 
 Dalje možete i sami.
 
+# Adijabatsko računarstvo
+
+Notebook-ovi u folderu `Adijabatsko računarstvo/` koriste D-Wave Ocean SDK biblioteke. Da biste ih pokrenuli, instalirajte sledeće pakete:
+
+```
+pip install dimod
+pip install dwave-neal
+pip install dwave-networkx
+pip install matplotlib
+pip install numpy
+pip install scipy
+pip install networkx
+```
+
+Ili sve odjednom:
+
+```
+pip install dimod dwave-neal dwave-networkx matplotlib numpy scipy networkx
+```
+
+- **dimod** — definisanje QUBO/BQM modela i tačan rešavač (`ExactSolver`)
+- **dwave-neal** — klasični simulovani žarenje (`SimulatedAnnealingSampler`)
+- **dwave-networkx** — grafovski algoritmi za QUBO (nezavisni skup, maksimalni rez, vertex cover)
+- **matplotlib / numpy / scipy** — vizualizacija i numeričke simulacije
+- **networkx** — kreiranje i manipulacija grafovima
+
+> Napomena: za pokretanje na stvarnom D-Wave kvantnom hardveru potreban je nalog na [D-Wave Leap](https://cloud.dwavesys.com/leap/) platformi i instalacija `dwave-system` paketa.
+
 # Slike
 
 Slike kvantnih kola su preuzete sa [Wikipedia članka](https://en.wikipedia.org/wiki/Quantum_logic_gate). Slika kvantne Furijeove transformacije za n = 2 je moja, napravljena pomoću alata na sledećem [linku](https://algassert.com/quirk).
