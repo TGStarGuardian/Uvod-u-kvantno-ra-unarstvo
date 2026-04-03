@@ -54,12 +54,13 @@ pip install networkx
 Ili sve odjednom:
 
 ```
-pip install dimod dwave-neal dwave-networkx matplotlib numpy scipy networkx
+pip install dimod dwave-neal dwave-networkx matplotlib numpy scipy networkx pyqubo
 ```
 
 - **dimod** — definisanje QUBO/BQM modela i tačan rešavač (`ExactSolver`)
-- **dwave-neal** — klasični simulovani žarenje (`SimulatedAnnealingSampler`)
+- **dwave-neal** — klasični simulovano žarenje (`SimulatedAnnealingSampler`)
 - **dwave-networkx** — grafovski algoritmi za QUBO (nezavisni skup, maksimalni rez, vertex cover)
+- **pyqubo** — simbolička formulacija QUBO/Izing problema, automatska kompilacija u BQM
 - **matplotlib / numpy / scipy** — vizualizacija i numeričke simulacije
 - **networkx** — kreiranje i manipulacija grafovima
 
